@@ -3,21 +3,29 @@ This tutorial is based on [Microsort ML.Net Official Document](https://dotnet.mi
 
 # Download and install on Mac
 1. Install .Net core SDK using Homebrew
-    ```brew cask install dotnet-sdk```
+    ```
+    brew cask install dotnet-sdk
+    ```
 2. Check everything installed correctly.
-    ```dotnet```
+    ```
+    dotnet
+    ```
 3. Check your .Net Core SDK version.
-    ```dotnet --version```
+    ```
+    dotnet --version
+    ```
 4. Install C# Extensions on vscode.
     [C# for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
 
 # Create your app
 1. In your terminal, run the following commands:
-    ```dotnet new console -o myMLApp
-    cd myMLApp```
-    ![tutorial create_your_app](https://dotnet.microsoft.com/images/tutorial-gifs/dotnet-hello-world-create-app.gif)
+    ```
+    dotnet new console -o myMLApp
+    cd myMLApp
+    ```
 2. Install ML.NET package
-    ```dotnet add package Microsoft.ML
+    ```
+    dotnet add package Microsoft.ML
     ```
 # Download data set
 Your machine learning app will predict the type of iris flower (setosa, versicolor, or virginica) based on four features: petal length, petal width, sepal length, and sepal width
@@ -28,7 +36,8 @@ When you paste the data it will look like the following. Each row represents a d
 
 # Write some code
 Open Program.cs in any text editor and replace all of the code with the following:
-    ```using Microsoft.Data.DataView;
+    ```
+    using Microsoft.Data.DataView;
     using Microsoft.ML;
     using Microsoft.ML.Data;
     using System;
@@ -112,13 +121,13 @@ Open Program.cs in any text editor and replace all of the code with the followin
             }
         }
     }
-    
-    Contact Microsoft
     ```
 
 # Run your app
 In your terminal, run the following command:
-    ```dotnet run```
+    ```
+    dotnet run
+    ```
 
 # Keep learning()
 1. Now that you've got the basics, you can keep learning with our ML.NET tutorials.
