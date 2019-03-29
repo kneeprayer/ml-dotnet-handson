@@ -36,7 +36,7 @@ When you paste the data it will look like the following. Each row represents a d
 
 # Write some code
 Open Program.cs in any text editor and replace all of the code with the following:
-    ```
+```
     using Microsoft.Data.DataView;
     using Microsoft.ML;
     using Microsoft.ML.Data;
@@ -120,7 +120,7 @@ Open Program.cs in any text editor and replace all of the code with the followin
             }
         }
     }
-    ```
+```
 
 # Run your app
 In your terminal, run the following command:
