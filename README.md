@@ -124,9 +124,9 @@ Open Program.cs in any text editor and replace all of the code with the followin
 
 # Run your app
 In your terminal, run the following command:
-    ```
-    dotnet run
-    ```
+```
+dotnet run
+```
 
 # Keep learning
 1. Now that you've got the basics, you can keep learning with our ML.NET tutorials.
