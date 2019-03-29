@@ -41,11 +41,10 @@ Open Program.cs in any text editor and replace all of the code with the followin
     using Microsoft.ML;
     using Microsoft.ML.Data;
     using System;
-
     // CS0649 compiler warning is disabled because some fields are only
     // assigned to dynamically by ML.NET at runtime
     #pragma warning disable CS0649
-
+    
     namespace myMLApp
     {
         class Program
@@ -129,7 +128,7 @@ In your terminal, run the following command:
     dotnet run
     ```
 
-# Keep learning()
+# Keep learning
 1. Now that you've got the basics, you can keep learning with our ML.NET tutorials.
     [.NET Machine learning tutorials - ML.NET](https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/)
 2. You might also be interested in...
